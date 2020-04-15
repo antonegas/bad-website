@@ -7,6 +7,7 @@ font-family: 'Roboto Slab', serif;
 
 #wrapper {
   width: 100%;
+  margin: 10px auto;
 }
 
 header {
@@ -22,6 +23,10 @@ header>h1#header {
 
 @media (min-width: 900px) {
   #wrapper {
-    width: 80%;
+    width: 65%;
+  }
+
+  header {
+    width: 100%;
   }
 }
