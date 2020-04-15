@@ -19,3 +19,9 @@ header>h1#header {
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
 }
+
+@media (min-width: 900px) {
+  #wrapper {
+    width: 80%;
+  }
+}
