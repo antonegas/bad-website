@@ -5,6 +5,17 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
 
+#wrapper {
+  width: 100%;
+}
+
+header {
+  border-bottom: 2px black solid;
+  width: inherit;
+  height: auto;
+}
+
 header>h1#header {
   font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
 }
