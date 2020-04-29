@@ -23,12 +23,28 @@ header>h1#header {
   margin-bottom: -10px;
 }
 
-@media (min-width: 900px) {
+#content-wrapper {
+  width: inherit;
+  margin: 10px auto;
+  padding: 0 40px 0 40px;
+}
+
+@media (min-width: 1250px) {
+  #content-wrapper {
+    width: 55%;
+  }
+}
+
+@media (max-width: 900px) {
+  #content-wrapper {
+    width: 50%;
+  }
+
   #wrapper {
     width: 65%;
   }
 
   header {
-    width: 100%;
+    width: 100vw;
   }
 }
