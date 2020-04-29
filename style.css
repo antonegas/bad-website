@@ -23,13 +23,12 @@ header>h1#header {
   margin-bottom: -10px;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   #wrapper {
-    width: 100%;
+    width: 65%;
   }
 
   header {
     width: 100%;
-    font-size: 15px;
   }
 }
